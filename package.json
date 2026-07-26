@@ -1,0 +1,21 @@
+{
+  "name": "dont-puck-app",
+  "private": true,
+  "packageManager": "pnpm@11.17.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "test": "turbo run test",
+    "format": "prettier --write \"**/*.{ts,tsx,md,json,css}\" --ignore-unknown"
+  },
+  "devDependencies": {
+    "turbo": "^2.10.4",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.2"
+  }
+}
